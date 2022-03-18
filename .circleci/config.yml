@@ -19,6 +19,10 @@ jobs:
             git config user.email "tuanvubk96@gmail.com"
             git config user.name "circleci"
             git checkout -B `git symbolic-ref --short HEAD`-build
+            
+      - run: 
+          name: Delete file
+          command: rm -rf temp.txt
       - run:
           name: Git push
           command: |
