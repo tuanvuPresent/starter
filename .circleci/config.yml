@@ -20,9 +20,6 @@ jobs:
             git config user.name "circleci"
             git checkout -B `git symbolic-ref --short HEAD`-build
       - run:
-          name: Delete file
-          command: rm README.md
-      - run:
           name: Git push
           command: |
             git add --all
