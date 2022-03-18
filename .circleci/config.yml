@@ -11,7 +11,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - "f3:1f:c2:2b:5c:4c:99:e1:3e:9f:c9:9b:3c:99:c1:09"
+            - "96:76:4d:a9:9c:06:9e:98:a3:77:60:7f:4a:31:d8:84"
       - checkout
       - run:
           name: Create branch
