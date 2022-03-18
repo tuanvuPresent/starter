@@ -32,9 +32,9 @@ jobs:
 workflows:
   run-build:
     jobs:
-      - run-build
+      - run-build:
         - build:
-          filters:
-            branches:
-              only:
-                - master
+           filters:
+             branches:
+               only:
+                 - master
