@@ -27,9 +27,9 @@ jobs:
           name: Git push
           command: |
             git add --all
-            git commit -m 'auto build'
+            git commit -m 'auto build app'
             git push -f origin HEAD
 workflows:
-  run-build-build:
+  run-build:
     jobs:
       - run-build
