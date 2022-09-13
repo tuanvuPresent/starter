@@ -23,3 +23,12 @@
 - Greedy
 ### 5. Database
 - SQL và NoSql
+### 6. Khác
+- Định lý CAP
+- Cache
+- Message queue
+- Encode / decode
+- Thuật toán xấp xỉ gần đúng
+- Bảo mật
+- Design pattern, SOLID, DRY
+- Thiết kế hệ thống
