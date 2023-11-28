@@ -32,3 +32,9 @@
 - Encode / decode
 - Thuật toán xấp xỉ gần đúng
 - Bảo mật
+### 7. Books
+- https://github.com/jwasham/coding-interview-university
+- https://github.com/donnemartin/system-design-primer
+- https://github.com/mtdvio/every-programmer-should-know
+- https://github.com/charlax/professional-programming
+- https://github.com/anushka23g/Complete-Placement-Preparation
